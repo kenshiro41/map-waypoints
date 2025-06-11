@@ -5,6 +5,12 @@
 {
 	"$schema": "node_modules/wrangler/config-schema.json",
 	"name": "waypoints",
+	"routes": [
+		{
+			"pattern": "waypoints.ken41.com",
+			"custom_domain": true
+		}
+	],
 	"compatibility_date": "2025-06-10",
 	"compatibility_flags": ["nodejs_compat"],
 	"main": ".svelte-kit/cloudflare/_worker.js",
