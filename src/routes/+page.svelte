@@ -56,10 +56,10 @@
 			throw new Error('URL is required');
 		}
 
-		const ok = validateGoogleMapUrl(sharedUrl);
-		if (!ok) {
-			throw new Error('Invalid Google Maps URL');
-		}
+		// const ok = validateGoogleMapUrl(sharedUrl);
+		// if (!ok) {
+		// 	throw new Error('Invalid Google Maps URL');
+		// }
 
 		const mid = getGoogleMapMid(sharedUrl);
 		if (!mid) {
